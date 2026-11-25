@@ -1,5 +1,7 @@
 # RedLLM: Automated Jailbreak & Adversarial LLM Red-Teaming Harness
 
+> **Status:** prototype. A personal security-research project, not a production product. Expect rough edges; issues and pull requests are welcome.
+
 An automated security red-teaming harness designed to evaluate the robustness of LLMs, agentic system prompts, and guardrails against **adversarial prompt injections**, **jailbreaks**, and **system prompt extraction attacks**.
 
 ---
@@ -76,3 +78,7 @@ python3 -m redllm.cli --simulate-mock
 | `Roleplay_DAN_Simulation` | DAN Persona Hijack | LLM01_Roleplay_Bypass | ✅ DEFENDED | 90% |
 | `Obfuscation_Base64` | Base64 Encoding Bypass | LLM01_Encoding_Evasion | 🚨 JAILBREAK | 80% |
 ```
+
+## License
+
+MIT. See [LICENSE](LICENSE).
